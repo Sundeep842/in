@@ -1,0 +1,412 @@
+.contact-container{
+    background-image: url("../../../images/photo-light-blue-color-background.jpg");
+    }
+    .column {
+        float: left;
+        width: 70%;
+        padding: 10px;
+        height: 300px;
+      }
+      .column1 {
+        float: right;
+        width: 30%;
+        padding: 10px;
+        height: 300px;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+       
+      }
+      .login {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+      }
+    
+      .login_form {
+        width: 90%;
+        height: 90%;
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/src/inv/images/2.png");
+        background-size: 100% 100%;
+        box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.4);
+        padding: 30px 60px;
+      }
+      .login_form_left{
+          flex-basis: 75%;
+          text-align: center;
+          color: #b7b7b7;
+          padding: 0px 50px;
+      }
+      .lfl_logo_title  {
+          font-size: 15px;
+      }
+      .login_form_right{
+          background: #fff;
+          padding: 30px 50px;
+          box-shadow: 1px 1px 20px 0px rgba(0,0,0,0.4);
+          height: 90%;
+      }
+      .login_form_buttons > button {
+          width: 100%;
+          margin-left: 0 !important;
+      }
+      .login_form_right .MuiSvgIcon-root{
+          fill: #1c3d6e;
+      }
+      .captcha{
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+      }
+    
+    
+      .login_form_buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 60px !important;
+    
+      }
+    
+      .login_form_button {
+        margin-left: 20px !important;
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+      }
+    
+      .login_form_error {
+        color: red;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    
+    /* -------------------custom login page css carousel from initial login page design ------------------- start */
+      /*
+     * 	Core Owl Carousel CSS File
+     *	v1.3.3
+     */
+    
+    /* clearfix */
+    .owl-carousel .owl-wrapper:after {
+      content: ".";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+    /* display none until init */
+    .owl-carousel{
+      display: none;
+      position: relative;
+      width: 100%;
+      -ms-touch-action: pan-y;
+    }
+    .owl-carousel .owl-wrapper{
+      display: none;
+      position: relative;
+      -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    .owl-carousel .owl-wrapper-outer{
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+    .owl-carousel .owl-wrapper-outer.autoHeight{
+      -webkit-transition: height 500ms ease-in-out;
+      -moz-transition: height 500ms ease-in-out;
+      -ms-transition: height 500ms ease-in-out;
+      -o-transition: height 500ms ease-in-out;
+      transition: height 500ms ease-in-out;
+    }
+    
+    .owl-carousel .owl-item{
+      float: left;
+    }
+    .owl-controls .owl-page,
+    .owl-controls .owl-buttons div{
+      cursor: pointer;
+    }
+    .owl-controls {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+    /* mouse grab icon */
+    .grabbing {
+      /*  cursor:url(grabbing.png) 8 8, move;*/
+    }
+    
+    /* fix */
+    .owl-carousel  .owl-wrapper,
+    .owl-carousel  .owl-item{
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility:    hidden;
+      -ms-backface-visibility:     hidden;
+      -webkit-transform: translate3d(0,0,0);
+      -moz-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+    }
+    
+    /*
+    * 	Owl Carousel Owl Demo Theme
+    *	v1.3.3
+    */
+    
+    .owl-theme .owl-controls{
+      margin-top: 10px;
+      text-align: center;
+    }
+    
+    /* Styling Next and Prev buttons */
+    
+    .owl-theme .owl-controls .owl-buttons div{
+      color: #FFF;
+      display: inline-block;
+      zoom: 1;
+      *display: inline;/*IE7 life-saver */
+      margin: 5px;
+      padding: 3px 10px;
+      font-size: 12px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background: #869791;
+      filter: Alpha(Opacity=50);/*IE7 fix*/
+      opacity: 0.5;
+    }
+    /* Clickable class fix problem with hover on touch devices */
+    /* Use it for non-touch hover action */
+    .owl-theme .owl-controls.clickable .owl-buttons div:hover{
+      filter: Alpha(Opacity=100);/*IE7 fix*/
+      opacity: 1;
+      text-decoration: none;
+    }
+    
+    /* Styling Pagination*/
+    
+    .owl-theme .owl-controls .owl-page{
+      display: inline-block;
+      zoom: 1;
+      *display: inline;/*IE7 life-saver */
+    }
+    .owl-theme .owl-controls .owl-page span{
+      display: block;
+      width: 12px;
+      height: 12px;
+      margin: 5px 7px;
+      filter: Alpha(Opacity=50);/*IE7 fix*/
+      opacity: 0.5;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      background: #ef9c7f;
+    }
+    
+    .owl-theme .owl-controls .owl-page.active span,
+    .owl-theme .owl-controls.clickable .owl-page:hover span{
+      filter: Alpha(Opacity=100);/*IE7 fix*/
+      opacity: 1;
+      z-index: 99;
+    }
+    
+    /* If PaginationNumbers is true */
+    
+    .owl-theme .owl-controls .owl-page span.owl-numbers{
+      height: auto;
+      width: auto;
+      color: #FFF;
+      padding: 2px 10px;
+      font-size: 12px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    }
+    
+    /* preloading images */
+    .owl-item.loading{
+      min-height: 150px;
+      /*background: url(AjaxLoader.gif) no-repeat center center*/
+    }
+    
+    
+    /* Login.css file*/
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 300;
+    }
+    p{
+        line-height: 22px;
+    }
+    .text-right{
+        text-align: right;
+    }
+    .text-left{
+        text-align: left;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .contact-container{
+        background-image: url("/src/inv/images/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .contact-container .left, .contact-container .right{
+        width: 50%;
+        float: left;
+        position: relative;
+        height: 100vh;
+    }
+    .contact-container::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #owl-example img{
+        width: 100%;
+    }
+    .item{
+        position: relative;
+        height: 100vh;
+    }
+    .img-text{
+        position: absolute;
+        bottom: 60px;
+        padding: 20px;
+    }
+    .owl-controls{
+        margin-top: -60px !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .otp-section button{
+        position: absolute;
+        right: 20%;
+        bottom: 5%;
+    }
+    .contact-container {
+        background-image: url("/src/inv/images/bg-enq.jpg");
+       
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: top;
+    }
+  
+    .form{
+        width: 60%;
+        margin: 0px auto;
+        z-index: 1;
+    }
+    .form-ctrl{
+        width: 100%;
+        padding: 7px 15px 7px 60px;
+        background-color: #e8e6ff;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        height: 50px;
+        margin-bottom: 20px !important;
+        /* overflow: hidden; */
+    }
+    .contact-container button{
+      padding: 8px 15px !important;
+      border-radius: 50px !important;
+      border: none;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 100;
+      font-size: 12px;
+      float: left;
+      background-color: #7f3d9a !important;
+    }
+    .btn-orange{
+        background-color: #ee5a12;
+        color: #fff;
+    }
+    .btn-orange:hover{
+        background-color: #db5410 !important;
+    }
+    .btn-blue{
+        background-color: #195ad5 !important;
+        color: #fff;
+    }
+    .btn-blue:hover{
+        background-color: #0a45b3 !important;
+    }
+    .btn-orange:active,.btn-orange:focus,.btn-blue:active,.btn-blue:focus{
+      color: #fff !important;
+    }
+    a.link{
+        color: #766ce7 ;
+        text-decoration: underline !important;
+    }
+    .user-input, .pswd-input{
+        position: relative !important;
+    }
+    .user-input{
+        background-image: url("/src/inv/images/user.png");
+        background-repeat: no-repeat;
+        background-position: 25px 10px;
+       
+    }
+    .pswd-input{
+        background-image: url("/src/inv/images/padlock.png");
+        background-repeat: no-repeat;
+        background-position: 25px 10px;
+    }
+    .btn-login{
+        width: 150px;
+        margin-top: 25px !important;
+    }
+    .logo{
+        margin-bottom:30px;
+    }
+    
+    .form-ctrl .MuiInput-underline:before{
+      border-bottom: 0px !important;
+    }
+    
+    .form-ctrl .MuiInputBase-input{
+          margin: 10px 0px 10px 70px !important;
+    }
+    
+    .form-ctrl .MuiFormHelperText-root.Mui-error{
+      margin-left: 70px !important;
+    }
+    .form-ctrl .MuiInput-underline:after{
+        border-bottom: none;
+    }
+    
+    .contact-container .left{
+      background-image: none  !important;
+    }
+
+    .contact-container .right{
+      background-image: none  !important;
+    }
+
+    body{
+      background-color: #eff0f2
+    }
+    
+    /* -------------------custom login page css carousel from initial login page design ------------------- end */
+    

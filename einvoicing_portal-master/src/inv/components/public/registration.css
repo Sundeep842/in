@@ -1,0 +1,19 @@
+.step_buttons button {
+    padding: 10px;
+    margin: 10px;
+    min-width: 115px;
+}
+.step_buttons {
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.user_details {
+    position: absolute;
+    right: 15%;
+    top: 3%;
+}

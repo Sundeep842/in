@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    /* min-height: 495px; */
+    max-height: 70vh;
+}
+
+.MuiTab-root{
+    min-width: 100px !important;
+}
+
+.right_pane .MuiTabs-root{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    margin: 0px 0px 0px -5px;
+    background-color: #fff;
+}
+.right_pane .MuiTabScrollButton-root{
+    width: auto !important;
+}
+.right_pane .MuiTabs-flexContainer{
+    background-color: #fff;
+}
+.right_pane .MuiTabs-root .MuiButtonBase-root path{
+    fill: red;
+}
+.right_pane {
+
+}
+.panel_header {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.middle_pane {
+    width: 4px;
+    margin: 5px;
+    background-color: grey;
+    border-radius: 50px;
+    position: relative;
+    left: -10px;
+}
+.middle_pane:hover {
+    cursor: e-resize;
+}
+
+.middle_pane .left_arrow {
+    position: absolute;
+    top: 50%;
+    left: -13px;
+}
+.middle_pane .right_arrow {
+    position: absolute;
+    top: 50%;
+    left: -4px;
+}
+
+.middle_pane path{
+    fill: grey;
+}
+
+.move_left {
+    width: 0%  !important;
+    padding-right: 0px !important;
+}
+
+.move_right {
+    width: 100%  !important;
+    padding-right: 0px !important;
+}
+
+.actions {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 10px;
+    /* border-top: 1px solid #f0f0f0;
+    text-align: right; */
+    text-align: right;  
+}
+
+.actions button {
+    margin: 10px
+}
+
+.invoice_header {
+    font-size: 11px;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+.invoice_main_form {
+    display: flex;
+}
+
+.dispatch_ship_container  {
+    display: flex
+}
+
+fieldset{
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cacaca;
+}
+legend{
+    /*color: #ed7117;*/
+    padding: 0px 10px;
+    font-size: 0.8571428571428571rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+}
+.splitter-layout .layout-pane{
+    overflow: hidden !important;
+    overflow-y: auto  !important;
+    padding-bottom: 10px;
+}
+.splitter-layout > div:last-child {
+    padding-left: 8px;
+    padding-bottom: 60px;
+}
+
+.splitter-layout{
+    width: 99% !important;
+}
+.right_pane .MuiTabs-root{
+    padding-bottom: 10px;
+}
+.payments_container, .eway_bill_container{
+    padding: 0px 10px;
+}

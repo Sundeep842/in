@@ -1,0 +1,46 @@
+.service_loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1800;
+	/* MAX of Z Index*/
+}
+
+.uploadActionButtons {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 27px;
+	padding-right: 15px;
+}
+
+.InvoiceJson {
+	height: 224px;
+	width: 100vh;
+}
+
+.InvoiceAttachment {
+	height: 400px;
+	width: 100vh;
+}
+
+.InvoiceSupportingDocument {
+	height: 400px;
+	width: 90vh;
+}
+
+.InvoiceJson1 {
+	height: 224px;
+	width: 100vh;
+}
+
+.InvoiceAttachment1 {
+	height: 400px;
+	width: 100vh;
+	margin-top: 131px;
+}
+
+.InvoiceSupportingDocument1 {
+	height: 400px;
+	width: 90vh;
+	margin-top: 131px;
+}

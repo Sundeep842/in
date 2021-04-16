@@ -1,0 +1,169 @@
+
+.child_component{
+    padding:0px  !important;
+}
+
+.todoLeft{
+    padding: 15px 5px;
+}
+.todoLeft {
+    border-right:1px solid #dcdcdc;
+}
+
+
+.MuiListItem-gutters{
+    padding-left:7px  !important;
+    padding-right:7px  !important;
+}
+
+.search_wrapper{
+    height: 60px;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 1px 5px 0px rgb(0, 0, 0,0.1);
+    padding: 10px;
+}
+
+.MuiDataGrid-root .MuiDataGrid-colCellMoving{
+    background: transparent !important;
+}
+
+
+
+#Search_cntrl{
+    border: 0 none;
+    color: #d7d7d7;
+    width:15%;
+    padding: 6px 15px 6px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+     border: 1px solid #ccc;
+     height: 40px;
+}
+
+#Search_cntrl:focus {
+    color: #6a6f75;
+    width: 28%;    
+    outline: none;
+}
+
+#Search_cntrl {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+.addTaskHolder{
+    float: right;
+    margin: 0px;
+    padding: 0px !important;
+}
+.todoRight {
+    height: 75vh
+}
+.todoRight Button {
+    width: 10%;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 650px;
+    margin-right: 20px;
+}
+.todoRight Select{
+    min-width: 200px;
+}
+
+.todoLeft .MuiMenuItem-root{
+    width: 100%;
+}
+.todoLeft .MuiMenuItem-root button{
+    width: 70% !important;
+    margin: 20px auto 0px auto  !important;
+}
+.todoLeft .MuiListItem-button:hover{
+    background: transparent;
+}
+
+.content{
+    margin-left: 0px !important;
+}
+
+.addTaskForm{
+    padding: 10px;
+    margin-top: 20px;   
+}
+
+.addTaskForm > label {
+    color: #888;
+    font-size: 12px;
+    background: #f2f2f2;
+    padding: 8px !important;
+}
+
+.EditUpdateTaskToDo > label{
+    padding-bottom: 20px;
+    color: #888;
+    font-size: 12px;
+    background: #f2f2f2;
+    padding: 8px !important;
+    margin: -65px 0px 0px 0px;
+}
+
+.EditUpdateTaskToDo{
+    background: rgb(255, 255, 255);
+    position: fixed;
+    height: 100vh;
+    width: 400px;
+    right: -100%;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    transition: right 0.4s ease-in;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.EditUpdateTaskToDo.open{
+    right: 0px !important;
+}
+
+.EditUpdateTaskToDo .MuiGrid-item{
+    margin-top: 10px;
+}
+
+.CreateNewTask > label{
+    padding-bottom: 20px;
+    color: #888;
+    font-size: 12px;
+    background: #f2f2f2;
+    padding: 8px !important;
+    margin: -31px 0px 0px 0px;
+}
+
+.CreateNewTask{
+    background: rgb(255, 255, 255);
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    right: -100%;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+    transition: right 0.4s ease-in;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+.CreateNewTask.open{
+    right: 0px !important;
+}
+
+
+
+.CreateNewTask .MuiGrid-item{
+    margin-top: 10px;
+}
+
+

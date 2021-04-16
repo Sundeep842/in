@@ -1,0 +1,117 @@
+.invite_buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 9px 0px;
+}
+
+.invite_buttons > button {
+    margin-left: 10px;
+}
+.invite_new_button {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.gridInvPending {
+  height:410px
+}
+.viewButtons button {
+  padding: 9px;
+  min-width: 100px;
+  margin: 10px;
+}
+.viewButtons {
+  text-align: right;
+  bottom: 6px;
+  right: 10px;
+}
+.historyGrid {
+  height:410px
+}
+
+.attachmentGrid {
+  height:410px
+}
+
+.viewInvitation {
+  background: #fff !important;
+  
+}
+.registration_response{
+  background: rgb(216,231,252);
+  background: linear-gradient(180deg, rgba(216,231,252,1) 0%, rgba(255,255,255,1) 100%);
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  /* background-image: url("../../../images/wave.png"); */
+  background-position: bottom left;
+  background-repeat: repeat-x;
+}
+.registration_response_img, .reg_msg{
+  text-align: center;
+}
+.registration_response_img{
+  padding-top: 30px
+}
+.registration_response_img img{
+  width: 60%;
+}
+.reg_msg p{
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.reg_msg h3{
+  font-size: 48px;
+  color: #4a5ea3;
+  margin-bottom: 20px;
+}
+
+.viewInvitation{
+    margin: 0px auto;
+    border-radius: 4px;
+}
+.invitations_view{
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.company_details_review_container {
+  float: left;
+  width: 50%;
+  border-right: 1px solid #ccc;
+}
+.contact_details_container {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.gstin_details_container {
+  clear: both;
+  float:left;
+  width: 50%;
+  border-right: 1px solid #ccc;
+  margin-top: 20px;
+}
+.rowLabel {
+  width: 180px;
+  font-weight: bold !important
+}
+
+.section_title {
+  font-weight: normal;
+  font-size: 18px;
+  padding: 8px 0px;
+}
+.msme_details_container {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  margin-top:20px;
+}
+
+.body_background {
+   /*background: #f8f8f8 !important;
+   padding: 35px;*/
+}

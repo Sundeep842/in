@@ -1,0 +1,22 @@
+.contact-container{
+    background-image: url("../../../images/photo-light-blue-color-background.jpg");
+    }
+    .column {
+        float: left;
+        width: 70%;
+        padding: 10px;
+        height: 300px;
+      }
+      .column1 {
+        float: right;
+        width: 30%;
+        padding: 10px;
+        height: 300px;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+       
+      }

@@ -1,0 +1,12 @@
+.invite_buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 9px 0px;
+}
+
+.invite_buttons > button {
+    margin-left: 10px;
+}
+.partnerInvite {
+  
+}

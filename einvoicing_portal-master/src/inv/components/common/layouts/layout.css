@@ -1,0 +1,322 @@
+.top_toolbar {
+  display: flex;
+  background: "#fff";
+  justify-content: space-between;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+}
+
+.logout_btn:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top_info {
+  display: flex;
+}
+
+.top_divider {
+  background-color: #fff !important;
+  height: 37px !important;
+}
+
+.navbar_side_bar .MuiPaper-root {
+  background: #fff !important;
+  box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 18%);
+}
+
+.expandableItem {
+  border-left: 3px solid transparent !important;
+  text-align: center !important;
+  display: list-item !important;
+}
+
+.sidebar_nav {
+  display: flex;
+}
+.sidebar_item {
+  margin-right: 10px;
+}
+
+.navItems {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.contentContainer {
+  width: 100% !important;
+  padding: 0px 15px;
+}
+
+.content {
+  margin-left: 15px;
+}
+
+.list_items {
+  text-align: center !important;
+  display: list-item !important;
+}
+.sub_menu {
+  width: 325px;
+  background: #fff;
+  z-index: 2;
+  position: fixed;
+  border-left: 1px solid #f3f3f3;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 10%), 0 3px 20px rgb(0 0 0 / 10%);
+  transition: transform 0.5s;
+  height: calc(100% - 10px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 130px;
+}
+.hide_item {
+  transform: translateX(-1000px);
+}
+.show_item {
+  transform: translateX(0);
+}
+
+.main_menu {
+  transition: 0.5s;
+  position: fixed;
+  width: 115px;
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 10%), 0 3px 20px rgb(0 0 0 / 10%);
+  height: 100vh;
+  border-radius: 0 .75rem .75rem 0
+}
+.sub_menu_item {
+  display: flex;
+  padding: 11px;
+}
+
+.sidebar {
+  font-size: 0.8rem;
+}
+
+.theme_selector {
+  position: fixed;
+  top: 50%;
+  right: 3px;
+  padding: 10px 0px;
+  border-radius: 0.2rem;
+  background: #f8f8f8;
+  z-index: 3;
+}
+
+.theme_hidden {
+  transform: translateX(440px);
+}
+
+.theme_show {
+  transform: translateX(0px);
+}
+
+.theme_selector_shown {
+  padding-left: 63px;
+  position: fixed;
+  top: 38%;
+  right: 50px;
+  padding: 30px 0px;
+  border: 1px solid #ccc;
+  width: 380px;
+  z-index: 2;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+  font-size: 0.8rem;
+  height: 259px;
+  transition: 0.5s;
+  background: #fff;
+}
+
+.theme_name {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.theme_colors {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.theme_color:hover {
+  cursor: pointer;
+}
+
+.theme_color {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.25s;
+}
+
+.app_copyright {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: right;
+  padding: 7px 35px;
+  font-size: 12px;
+  left: 0;
+}
+
+.list_main {
+    padding-bottom: 8px;
+    border-right: 1px solid #f3f3f3;
+    height: 88vh;
+    overflow: auto;
+}
+
+.child_component {
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgb(0 ,0, 0 ,0.1);
+  margin-bottom: 20px;
+  position: relative;
+  /*max-height:75vh;*/
+  min-height:80vh;
+  overflow:hidden;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px !important;
+}
+
+.list_item .MuiSvgIcon-root{
+  margin:auto;
+}
+
+.main_menu ul>div {
+    padding: 26px !important;
+    text-align: center !important;
+}
+
+.main_menu ul a {
+    padding: 26px !important;
+    text-align: center !important;
+    border-bottom: 1px solid #f3f3f3;
+    max-height: 110px;
+}
+
+svg.MuiSvgIcon-root.svg_nav_side_icon {
+  transform: scale(1.9) !important;
+    stroke-width: 1px !important;
+    stroke: #f8f8f8;
+}
+.MuiListItem-root.Mui-selected::before{
+  content: "";
+}
+
+.top_bar {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.top_bar_left {
+    float: left;
+}
+
+.top_bar_right {
+  float: right;
+  display: flex;
+}
+
+.list_item .MuiListItemText-root{
+  padding-top: 7px;
+}
+
+.top_bar_logo {
+  width: 100px;
+  vertical-align: middle;
+  /* margin-left: 40px; */
+}
+.todo_list{
+  margin-left: 60px !important;
+}
+.todo_list:hover{
+  color: blue;
+}
+.sub_nav_item .MuiListItemText-root{
+  flex: 0 1 auto;
+  margin-left: 10px;
+}
+.nav_item.sub_nav_item.sub_menu_item{
+  min-height: 40px !important;
+  padding-top: 10px !important;
+}
+
+.top_bar_right > div {
+  margin-right: 15px;
+}
+
+.top_bar_right_name  {
+  font-size: 14px;
+  color: #9e9e9e;
+  align-self: center;
+}
+
+.user_role {
+  font-size: 12px;
+  color: #c3c3c3;
+}
+
+.chat_box {
+  right: 3px;
+  top: 67%;
+  position: fixed;
+  padding: 10px 0px;
+  border-radius: 0.2rem;
+  z-index: 3;
+}
+
+.chat_box_dialog {
+    padding-left: 63px;
+    position: fixed;
+    top: 38%;
+    right: 50px;
+    padding: 30px 0px;
+    border: 1px solid #ccc;
+    width: 25%;
+    z-index: 2;
+    box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+    font-size: 0.8rem;
+    height: 60%;
+    transition: 0.5s;
+    background: #fff;
+}
+
+
+.chat_show {
+    right: 50px;
+}
+
+.chat_hide {
+    right: -100%;
+}
+
+.dynamicWrapper {
+    padding-left: 0px !important;
+    transition: padding-left  0.5s;
+}
+
+.dynamicMenu {
+  right: -100% !important;
+  transition: 0.5s;
+}
+
+.dynamicContent {
+  margin-left: 0px !important;
+}
+
+.toggleRotate button{
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
